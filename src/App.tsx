@@ -22,7 +22,7 @@ type OwnerContext = {
 };
 
 const storageKey = 'pawsona-owner-context-v1';
-const asset = (name: string) => `/assets/${name}`;
+const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`;
 const interpretationLabels: Record<Interpretation, string> = {
   normal: 'Normal in this context',
   'one-time': 'One-time event',

@@ -17,6 +17,8 @@ Open the local address printed by Vite. To check the production build:
 pnpm build
 ```
 
+The GitHub Pages build is served from `/pawsona-web-prototype/`. Pushes to `main` run the deployment workflow after Pages is set to **GitHub Actions** in the repository settings.
+
 ## Workshop path
 
 1. Today → **Worth a closer look**.
