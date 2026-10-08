@@ -17,7 +17,7 @@ Open the local address printed by Vite. To check the production build:
 pnpm build
 ```
 
-The GitHub Pages build is served from `/pawsona-web-prototype/`. Pushes to `main` run the deployment workflow after Pages is set to **GitHub Actions** in the repository settings.
+The standard build is served from `/` for Vercel. GitHub Pages uses `pnpm build:pages` to serve from `/pawsona-web-prototype/`. Pushes to `main` run the Pages workflow after Pages is set to **GitHub Actions** in the repository settings.
 
 ## Workshop path
 
